@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Insurance</title>
+  <link href="health.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1690b538b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div> 
+  <div class="header">
+    <div class="headSec">
+      <a href="tel:3056899976" class="numberLink">
+        <i class="fa-solid fa-phone"></i>
+        <p class="phoneNumber">305-698-9976</p>
+      </a>
+      <a href="mailto:vergelins@gmail.com" class="numberLink">
+        <i class="fa-solid fa-envelope"></i>
+        <p class="contact">Contact us</p>
+      </a>
+    </div>
+  </div> 
+
+    <div class="header2">
+    <a href="/home.html">
+      <img class="logo" src="/images/logo phot.png">
+    </a>  
+
+      <div class="links">
+
+      <a href="/home.html" class="buttonLink">
+        <p class="linkText">Home</p>
+      </a>
+      <a href="/agency/agency.html" class="buttonLink">
+        <p class="linkText">Agency Network</p>
+      </a>  
+      <a href="/location/location.html" class="buttonLink">
+        <p class="linkText">Our Location</p>
+      </a>
+      </div>
+    </div>
+
+    <div class="auto">
+      <h1 class="autoTitle">Health Insurance</h1>
+      <div class="carImageSec">
+        <p class="autoDesc">Health insurance is at the core of our services, with a focus on providing essential coverage through the Affordable Care Act, commonly known as Obamacare. We specialize in tailoring policies that adhere to the ACA guidelines, ensuring you have access to quality healthcare. While we exclusively provide Obamacare plans, our commitment to offering diverse policy options within this framework allows us to find the ideal coverage to suit your specific health needs. We're dedicated to assisting you in making informed choices for your health and financial security, all within the structure of the ACA.</p>
+        <img class="carImage" src="https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGhlYWx0aCUyMGluc3VyYW5jZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60">
+      </div>
+    </div>
+
+  <div class="contactForm">
+
+    <h1 class="autoTitle">For More Information, Contact Us</h1>
+
+    <form autocomplete="on" class="spaceOut" id="myForm" action="/" method="post" enctype="application/x-www-form-urlencoded">
+
+      <div class="inputSetup">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your full name..">
+      </div>
+
+      <div class="inputSetup">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email address..">
+      </div>
+
+      <div class="inputSetup">
+        <label for="number">Phone Number</label>
+        <input type="text" id="number" name="number" placeholder="Ex: 123-456-7890">
+      </div>
+
+      <div class="inputSetup">
+        <label for="message">Message</label>
+        <select name="insurancesTypes" id="insurancesTypes">
+          <option value="Auto">Auto</option>
+          <option value="Commercial Auto">Commercial Auto</option>
+          <option value="General Liability">General Liability</option>
+          <option value="Boat">Boat</option>
+          <option value="Home">Home</option>
+          <option value="Health">Health</option>
+        </select>
+      </div>
+
+      <input type="submit" id="submit">
+
+      </form>
+    </div>
+    
+     
+    <script src="/car/app.js"></script>
+      
+</body>
+</html>
